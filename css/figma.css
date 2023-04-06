@@ -46,20 +46,17 @@ a {
     padding-left: 30px;
 }
 
-.leftlogo {
+.left-right-margin {
+    margin: 0 55px;
+}
+
+.left-logo {
     display: inline-flex;
     align-items: center;
 }
 
-.leftlogo p {
-    margin: 0px;
-}
-
-.ppc p {
-    line-height: 1.2;
-    font-size: 32px;
-    padding: 0 30px 0 30px;
-    text-align: left;
+.left-logo p {
+    margin: 0 0 0 55px;
 }
 
 section.jumbotron {
@@ -78,12 +75,6 @@ section.jumbotron {
     color: white;
     font-size: 65px;
     margin: 0;
-}
-
-.pipernet {
-    font-size: 72px;
-    color: #8B0000;
-    text-align: center;
 }
 
 .container {
@@ -109,7 +100,7 @@ footer.footer {
     justify-content: center;
 }
 
-.heroname {
+.hero-name {
     font-style: italic;
     font-weight: 500;
     font-size: 48px;
@@ -118,25 +109,43 @@ footer.footer {
     color: #fff;
 }
 
-.theproblem {
-    background-color: #FFFFFF;;
+.the-problem {
     background-size: cover;
-    background-position: center;
+    background: #EEEEEE center;
 }
 
-.problemtxt {
+.the-problem p {
+    padding-bottom: 32px;
+}
+
+.problem-txt {
     font-size: 32px;
-    text-align: center;
+    text-align: left;
     color: #000;
+    font-weight: 500;
 }
 
-.problemname {
-    font-size: 36px;
+.title-name {
+    font-size: 45px;
+    font-family: "Arial", sans-serif;
     text-align: center;
     color: #007765;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
-.ppcname {
+.ppc p {
+    line-height: 1.2;
+    font-size: 32px;
+    text-align: left;
+    color: #000;
+    font-weight: 500;
+}
+
+.ppc-name {
     font-style: normal;
     font-weight: 500;
     font-size: 38px;
@@ -145,12 +154,7 @@ footer.footer {
     color: #007765;
 }
 
-.ppcname h3 {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.bottomlogo {
+.bottom-logo {
     font-style: normal;
     font-weight: 500;
     line-height: 56px;
@@ -158,29 +162,18 @@ footer.footer {
     color: #000;
 }
 
-.ppclogo .bottomlogo {
-    margin: 0px;
+.ppc-logo .bottom-logo {
+    margin: 0;
 }
 
 body {
     margin: 0;
 }
 
-.theteam {
+.the-team {
     width: 100%;
     background: #EEEEEE;
-    height: 735px;
-}
-
-.teamname {
-    font-size: 36px;
-    text-align: center;
-    color: #007765;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
+    height: 700px;
 }
 
 .people {
@@ -216,7 +209,7 @@ body {
     background: #000000;
 }
 
-.footertxt {
+.footer-txt {
     text-align: center;
     font-style: normal;
     font-weight: 500;
@@ -224,12 +217,9 @@ body {
     color: #FFFFFF;
 }
 
-.footertxt p {
+.footer-txt p {
     text-align: center;
-    font-size: 17px;
+    font-size: 22px;
     line-height: 1.5;
-}
-
-.clear {
-    clear: both;
+    font-family: "Arial", sans-serif;
 }
