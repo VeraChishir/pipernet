@@ -47,8 +47,7 @@ a {
 }
 
 .left-right-margin {
-    margin-left: 55px;
-    margin-right: 55px;
+    margin: 0 55px;
 }
 
 .left-logo {
@@ -57,7 +56,7 @@ a {
 }
 
 .left-logo p {
-    margin-left: 55px;
+    margin: 0 0 0 55px;
 }
 
 section.jumbotron {
@@ -111,9 +110,12 @@ footer.footer {
 }
 
 .the-problem {
-    background-color: #FFFFFF;
     background-size: cover;
-    background-position: center;
+    background: #EEEEEE center;
+}
+
+.the-problem p {
+    padding-bottom: 32px;
 }
 
 .problem-txt {
@@ -123,10 +125,16 @@ footer.footer {
     font-weight: 500;
 }
 
-.problem-name {
-    font-size: 36px;
+.title-name {
+    font-size: 45px;
+    font-family: "Arial", sans-serif;
     text-align: center;
     color: #007765;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 }
 
 .ppc p {
@@ -144,11 +152,6 @@ footer.footer {
     line-height: 56px;
     text-align: center;
     color: #007765;
-}
-
-.ppc-name h3 {
-    margin-top: 30px;
-    margin-bottom: 20px;
 }
 
 .bottom-logo {
@@ -170,18 +173,7 @@ body {
 .the-team {
     width: 100%;
     background: #EEEEEE;
-    height: 735px;
-}
-
-.team-name {
-    font-size: 36px;
-    text-align: center;
-    color: #007765;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
+    height: 700px;
 }
 
 .people {
